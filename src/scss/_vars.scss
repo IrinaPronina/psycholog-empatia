@@ -1,0 +1,29 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Nunito", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  @media ((max-width: 1024px)) {
+    --container-offset: 30px;
+  }
+  @media ((max-width: 576px)) {
+    --container-offset: 15px;
+  }
+
+  // colors
+  --white: #fff;
+  --light: #FFFFFE;
+  --accent-color: #6689A2;
+  --color1: 242, 155, 48;
+  --color2: #65A6BE;
+  --light-color: #E8F8FF;
+  --text-color: 43, 43, 43;
+  --hover-color: 82, 167, 199;
+  --hover-btn: #A7B4C2;
+  --bgd-color: 213, 231, 242;
+  --footer-color: 65, 117, 156;
+}

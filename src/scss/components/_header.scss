@@ -1,0 +1,128 @@
+.header {
+  &__top {
+    padding: 10px 0;
+    background-color: var(--accent-color);
+
+    @include mobile {
+      padding: 10px 5px;
+    }
+  }
+
+  &__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mobile {
+      flex-direction: column-reverse;
+      align-items: start;
+    }
+  }
+
+  &__top-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__top-icon {
+    width: 21px;
+    height: 21px;
+    opacity: .77;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  &__top-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: var(--light);
+  }
+
+  &__top-text {
+    letter-spacing: 1px;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--light);
+    opacity: .7;
+  }
+
+
+  &__top-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--light);
+  }
+
+  &__top-right {
+    @include mobile {
+      margin-bottom: 10px;
+    }
+  }
+
+
+  &__bottom {
+    padding: 15px 0;
+    background-color: var(--white);
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mobile {
+      justify-content: center;
+    }
+  }
+
+
+
+  &__link {
+
+    margin-right: 20px;
+
+    @include tablet {
+      margin-right: 0;
+    }
+
+    @include mobile {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__logo {
+    width: 110px;
+    height: 70px;
+  }
+
+  &__svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+    // path{
+    //   fill: rgba(var(--color1), 1);
+    // }
+  }
+}
+
+
+// .svg-main {
+//   fill: transparent;
+//   animation: chart-line 2s ease forwards;
+// }
+
+
+
+// @keyframes chart-line {
+//   100% {
+//     fill: rgba(var(--color1), 1);
+//   }
+// }

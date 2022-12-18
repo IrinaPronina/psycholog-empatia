@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Психологическая помощь НН</title>
+  <link rel="preload" href="fonts/NunitoRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NunitoLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NunitoMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NunitoSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NunitoBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NunitoBlack.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NunitoExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__top">
+    <div class="header__container container">
+      <div class="header__top-inner">
+        <div class="header__top-left">
+          <div class="header__top-icon">
+            <svg class="header__top-svg">
+              <use xlink:href="img/sprite.svg#tel"></use>
+            </svg>
+          </div>
+          <div class="header__top-block">
+            <div class="header__top-text">
+              <span>Звоните с 13:00 до 19:00</span>
+            </div>
+            <div class="header__top-phone">
+              <a href="tel:http://8%20(831)%20292-23-18" class="header__top-link"> 8 (831) 292-23-18</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__top-right">
+          <a href="#ask" class="header__top-btn btn-stroke btn-reset popup-link">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="header__container container">
+      <div class="header__inner">
+        <a href="/" class="header__link">
+          <div class="header__logo">
+            <!-- <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+              <path
+                d="M1405,1498a23,23,0,1,1,23-23A23.029,23.029,0,0,1,1405,1498Zm0-43.81a20.81,20.81,0,1,0,20.81,20.81A20.84,20.84,0,0,0,1405,1454.19Zm0,22.36-9.1-9.1,1.55-1.55,7.55,7.55,9.74-9.74,1.55,1.55Zm17.52-.45h-5.47v-2.2h5.47v2.2Zm-16.42,16.42h-2.2v-5.47h2.2v5.47Zm-13.15-16.42h-5.47v-2.2h5.47v2.2Zm13.15-13.15h-2.2v-5.47h2.2v5.47Z"
+                transform="translate(-1382 -1452)" />
+            </svg> -->
+            <!-- <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="111px" height="70px" viewBox="0 0 110 70" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g><path  fill="#fefefe" d="M -0.5,-0.5 C 160.5,-0.5 321.5,-0.5 482.5,-0.5C 482.5,101.167 482.5,202.833 482.5,304.5C 321.5,304.5 160.5,304.5 -0.5,304.5C -0.5,202.833 -0.5,101.167 -0.5,-0.5 Z"/></g>
+              <g><path  fill="#fc9d0c" d="M 124.5,63.5 C 123.094,63.9731 122.427,64.9731 122.5,66.5C 121.227,68.7128 120.227,71.0462 119.5,73.5C 118.883,73.6107 118.383,73.944 118,74.5C 117.833,70.1667 117.667,65.8333 117.5,61.5C 119.095,51.4392 120.428,41.4392 121.5,31.5C 123.741,24.7892 128.408,22.2892 135.5,24C 136.097,25.0617 136.43,26.2284 136.5,27.5C 134.397,33.3106 133.231,39.3106 133,45.5C 130.058,51.5166 127.224,57.5166 124.5,63.5 Z"/></g>
+              <g><path class="path3"  fill="#fc9d0c" d="M 222.5,54.5 C 228.853,53.9011 234.853,55.0678 240.5,58C 245.193,60.6887 245.527,63.6887 241.5,67C 227.082,74.7465 213.748,84.0798 201.5,95C 188.374,103.335 174.708,110.335 160.5,116C 170.011,101.978 180.011,88.3117 190.5,75C 200.756,67.3814 211.422,60.548 222.5,54.5 Z"/></g>
+              <g><path  fill="#f6ad3b" d="M 121.5,31.5 C 120.428,41.4392 119.095,51.4392 117.5,61.5C 117.667,65.8333 117.833,70.1667 118,74.5C 118.383,73.944 118.883,73.6107 119.5,73.5C 119.585,74.9953 118.919,75.9953 117.5,76.5C 116.334,65.8489 116.168,55.1823 117,44.5C 117.751,39.7891 119.251,35.4557 121.5,31.5 Z"/></g>
+              <g><path  fill="#f4d08a" d="M 124.5,63.5 C 124.573,65.0269 123.906,66.0269 122.5,66.5C 122.427,64.9731 123.094,63.9731 124.5,63.5 Z"/></g>
+              <g><path  fill="#fbeac3" d="M 81.5,99.5 C 87.6529,98.3467 93.9863,98.18 100.5,99C 101.056,99.3826 101.389,99.8826 101.5,100.5C 94.8523,99.8605 88.1856,99.5272 81.5,99.5 Z"/></g>
+              <g><path  fill="#fd9c07" d="M 81.5,99.5 C 88.1856,99.5272 94.8523,99.8605 101.5,100.5C 133.522,112.037 152.355,134.703 158,168.5C 161.319,196.27 154.652,221.27 138,243.5C 120.326,263.246 98.1595,272.413 71.5,271C 55.7944,267.318 42.7944,259.318 32.5,247C 37.9227,247.689 43.2561,249.022 48.5,251C 53.1548,251.499 57.8215,251.666 62.5,251.5C 65.3854,251.806 68.0521,251.473 70.5,250.5C 70.8333,250.5 71.1667,250.5 71.5,250.5C 92.5289,246.982 106.362,234.982 113,214.5C 114.78,209.997 115.613,205.33 115.5,200.5C 116.165,196.849 116.499,193.015 116.5,189C 116.6,182.275 115.934,175.775 114.5,169.5C 112.579,154.159 106.245,140.992 95.5,130C 82.3237,119.29 67.3237,115.623 50.5,119C 41.4451,121.058 34.2784,125.892 29,133.5C 32.4171,123.389 38.9171,115.556 48.5,110C 54.9847,105.837 61.9847,102.837 69.5,101C 73.4183,99.8436 77.4183,99.3436 81.5,99.5 Z"/></g>
+              <g><path  fill="#fb9e14" d="M 208.5,165.5 C 205.026,164.475 201.36,163.808 197.5,163.5C 195.345,163.628 193.345,163.128 191.5,162C 202.787,157.015 214.454,153.015 226.5,150C 234.5,149.333 242.5,149.333 250.5,150C 253.803,151.007 254.97,153.173 254,156.5C 239.929,164.461 224.762,167.461 208.5,165.5 Z"/></g>
+              <g><path  fill="#f7d59a" d="M 197.5,163.5 C 201.36,163.808 205.026,164.475 208.5,165.5C 204.511,165.884 200.845,165.217 197.5,163.5 Z"/></g>
+              <g><path  fill="#1fb726" d="M 71.5,213.5 C 70.5048,225.655 70.1714,237.989 70.5,250.5C 68.0521,251.473 65.3854,251.806 62.5,251.5C 62.8279,240.321 62.4946,229.321 61.5,218.5C 60.7375,217.732 59.7375,217.232 58.5,217C 60.0581,216.79 61.3915,216.29 62.5,215.5C 62.4894,213.983 61.8228,212.816 60.5,212C 52.2356,208.502 47.9023,202.169 47.5,193C 49.7771,179.391 57.7771,173.391 71.5,175C 85.1388,180.438 89.3054,189.938 84,203.5C 80.8454,208.153 76.6787,211.486 71.5,213.5 Z"/></g>
+              <g><path  fill="#fae8be" d="M 114.5,169.5 C 115.934,175.775 116.6,182.275 116.5,189C 116.499,193.015 116.165,196.849 115.5,200.5C 115.466,190.155 115.133,179.821 114.5,169.5 Z"/></g>
+              <g><path  fill="#8ddb8f" d="M 101.5,181.5 C 104.23,182.942 107.23,183.942 110.5,184.5C 110.376,185.107 110.043,185.44 109.5,185.5C 107.052,184.527 104.385,184.194 101.5,184.5C 101.5,183.5 101.5,182.5 101.5,181.5 Z"/></g>
+              <g><path  fill="#8ad68f" d="M 23.5,187.5 C 27.1667,187.5 30.8333,187.5 34.5,187.5C 34.5,188.833 34.5,190.167 34.5,191.5C 33.596,190.791 33.2627,189.791 33.5,188.5C 29.9581,188.813 26.6248,188.479 23.5,187.5 Z"/></g>
+              <g><path  fill="#b7e9bc" d="M 104.5,188.5 C 102.052,189.473 99.3854,189.806 96.5,189.5C 96.7678,191.099 96.4345,192.432 95.5,193.5C 95.5,191.833 95.5,190.167 95.5,188.5C 98.5,188.5 101.5,188.5 104.5,188.5 Z"/></g>
+              <g><path  fill="#34b836" d="M 51.5,212.5 C 50.5084,212.328 49.8417,212.662 49.5,213.5C 41.4028,208.382 36.4028,201.049 34.5,191.5C 34.5,190.167 34.5,188.833 34.5,187.5C 30.8333,187.5 27.1667,187.5 23.5,187.5C 22.1882,186.855 21.1882,185.855 20.5,184.5C 22.7427,183.526 25.076,183.192 27.5,183.5C 27.5,182.5 27.5,181.5 27.5,180.5C 30.6771,181.668 33.8437,183.001 37,184.5C 37.9339,196.04 42.7672,205.373 51.5,212.5 Z"/></g>
+              <g><path  fill="#ef932f" d="M 412.5,246.5 C 412.5,241.167 412.5,235.833 412.5,230.5C 402.886,231.121 397.886,236.455 397.5,246.5C 394.102,246.82 390.768,246.487 387.5,245.5C 388.88,240.987 390.713,236.654 393,232.5C 394.543,230.622 396.376,229.122 398.5,228C 391.324,224.816 388.49,219.316 390,211.5C 391.076,208.921 392.909,207.254 395.5,206.5C 403.691,204.672 412.024,204.006 420.5,204.5C 420.5,218.5 420.5,232.5 420.5,246.5C 417.833,246.5 415.167,246.5 412.5,246.5 Z"/></g>
+              <g><path  fill="#ef9431" d="M 203.5,211.5 C 204.924,209.485 205.59,207.152 205.5,204.5C 209.5,204.5 213.5,204.5 217.5,204.5C 218.5,218.499 219.5,232.499 220.5,246.5C 217.5,246.5 214.5,246.5 211.5,246.5C 211.81,243.287 211.477,240.287 210.5,237.5C 210.111,229.164 209.611,220.831 209,212.5C 205.761,223.961 202.261,235.295 198.5,246.5C 195.833,246.5 193.167,246.5 190.5,246.5C 187.301,236.235 184.301,225.902 181.5,215.5C 181.688,213.897 181.188,212.563 180,211.5C 179.501,217.491 179.334,223.491 179.5,229.5C 179.365,235.181 179.032,240.848 178.5,246.5C 175.833,246.5 173.167,246.5 170.5,246.5C 171.162,242.534 171.495,238.534 171.5,234.5C 172.172,224.46 173.172,214.46 174.5,204.5C 178.833,204.5 183.167,204.5 187.5,204.5C 189.697,214.286 192.363,223.953 195.5,233.5C 197.998,225.997 200.665,218.664 203.5,211.5 Z"/></g>
+              <g><path  fill="#ef932e" d="M 261.5,204.5 C 261.5,218.5 261.5,232.5 261.5,246.5C 258.5,246.5 255.5,246.5 252.5,246.5C 252.5,234.833 252.5,223.167 252.5,211.5C 247.5,211.5 242.5,211.5 237.5,211.5C 237.5,215.833 237.5,220.167 237.5,224.5C 237.5,231.833 237.5,239.167 237.5,246.5C 234.833,246.5 232.167,246.5 229.5,246.5C 229.5,232.5 229.5,218.5 229.5,204.5C 240.167,204.5 250.833,204.5 261.5,204.5 Z"/></g>
+              <g><path  fill="#ef932f" d="M 281.5,204.5 C 285.833,204.5 290.167,204.5 294.5,204.5C 298.839,218.517 303.173,232.517 307.5,246.5C 303.833,246.5 300.167,246.5 296.5,246.5C 296.348,242.738 295.681,239.072 294.5,235.5C 289.281,234.196 284.114,234.196 279,235.5C 277.846,239.104 277.013,242.771 276.5,246.5C 273.167,246.5 269.833,246.5 266.5,246.5C 271.496,232.506 276.496,218.506 281.5,204.5 Z"/></g>
+              <g><path  fill="#ef932f" d="M 307.5,204.5 C 318.5,204.5 329.5,204.5 340.5,204.5C 340.5,206.833 340.5,209.167 340.5,211.5C 336.5,211.5 332.5,211.5 328.5,211.5C 328.5,223.167 328.5,234.833 328.5,246.5C 325.5,246.5 322.5,246.5 319.5,246.5C 319.5,234.833 319.5,223.167 319.5,211.5C 315.702,210.517 311.702,210.183 307.5,210.5C 307.5,208.5 307.5,206.5 307.5,204.5 Z"/></g>
+              <g><path  fill="#ef922d" d="M 356.5,229.5 C 361.803,223.356 366.969,217.022 372,210.5C 373.559,208.783 374.392,206.783 374.5,204.5C 376.833,204.5 379.167,204.5 381.5,204.5C 381.5,218.5 381.5,232.5 381.5,246.5C 378.833,246.5 376.167,246.5 373.5,246.5C 373.666,237.161 373.5,227.827 373,218.5C 372.283,219.044 371.783,219.711 371.5,220.5C 367.008,226.136 362.508,231.803 358,237.5C 355.94,240.286 354.44,243.286 353.5,246.5C 351.167,246.5 348.833,246.5 346.5,246.5C 346.5,233.5 346.5,220.5 346.5,207.5C 346.5,206.5 346.5,205.5 346.5,204.5C 349.167,204.5 351.833,204.5 354.5,204.5C 354.334,213.839 354.5,223.173 355,232.5C 356.039,231.756 356.539,230.756 356.5,229.5 Z"/></g>
+              <g><path  fill="#f6c792" d="M 261.5,204.5 C 250.833,204.5 240.167,204.5 229.5,204.5C 229.5,218.5 229.5,232.5 229.5,246.5C 232.167,246.5 234.833,246.5 237.5,246.5C 237.5,239.167 237.5,231.833 237.5,224.5C 238.492,231.982 238.825,239.648 238.5,247.5C 235.167,247.5 231.833,247.5 228.5,247.5C 228.5,232.833 228.5,218.167 228.5,203.5C 239.679,203.172 250.679,203.505 261.5,204.5 Z"/></g>
+              <g><path  fill="#f6b875" d="M 217.5,204.5 C 213.5,204.5 209.5,204.5 205.5,204.5C 205.59,207.152 204.924,209.485 203.5,211.5C 203.833,208.833 204.167,206.167 204.5,203.5C 209.032,203.182 213.366,203.515 217.5,204.5 Z"/></g>
+              <g><path  fill="#f4b774" d="M 307.5,204.5 C 307.5,206.5 307.5,208.5 307.5,210.5C 311.702,210.183 315.702,210.517 319.5,211.5C 315.167,211.5 310.833,211.5 306.5,211.5C 306.198,208.941 306.532,206.607 307.5,204.5 Z"/></g>
+              <g><path  fill="#fefaf6" d="M 412.5,211.5 C 412.5,215.5 412.5,219.5 412.5,223.5C 410.167,223.5 407.833,223.5 405.5,223.5C 399.633,222.797 397.467,219.464 399,213.5C 399.5,213 400,212.5 400.5,212C 404.486,211.501 408.486,211.334 412.5,211.5 Z"/></g>
+              <g><path  fill="#5dc25d" d="M 51.5,212.5 C 54.7624,214.88 58.4291,215.88 62.5,215.5C 61.3915,216.29 60.0581,216.79 58.5,217C 59.7375,217.232 60.7375,217.732 61.5,218.5C 56.7679,218.373 52.7679,216.707 49.5,213.5C 49.8417,212.662 50.5084,212.328 51.5,212.5 Z"/></g>
+              <g><path  fill="#47bb47" d="M 101.5,181.5 C 101.5,182.5 101.5,183.5 101.5,184.5C 104.385,184.194 107.052,184.527 109.5,185.5C 108.33,187.279 106.664,188.279 104.5,188.5C 101.5,188.5 98.5,188.5 95.5,188.5C 95.5,190.167 95.5,191.833 95.5,193.5C 92.33,206.002 84.6633,214.335 72.5,218.5C 71.5013,229.146 71.168,239.813 71.5,250.5C 71.1667,250.5 70.8333,250.5 70.5,250.5C 70.1714,237.989 70.5048,225.655 71.5,213.5C 71.281,214.675 71.6143,215.675 72.5,216.5C 85.6065,209.975 92.4398,199.308 93,184.5C 95.6383,182.965 98.4717,181.965 101.5,181.5 Z"/></g>
+              <g><path  fill="#fef3e8" d="M 286.5,210.5 C 288.863,215.917 290.863,221.584 292.5,227.5C 288.893,228.489 285.226,228.823 281.5,228.5C 283.165,222.502 284.832,216.502 286.5,210.5 Z"/></g>
+              <g><path  fill="#f8cfa2" d="M 356.5,229.5 C 356.539,230.756 356.039,231.756 355,232.5C 354.5,223.173 354.334,213.839 354.5,204.5C 351.833,204.5 349.167,204.5 346.5,204.5C 346.5,205.5 346.5,206.5 346.5,207.5C 346.167,207.5 345.833,207.5 345.5,207.5C 345.5,206.167 345.5,204.833 345.5,203.5C 348.833,203.5 352.167,203.5 355.5,203.5C 355.174,212.349 355.507,221.016 356.5,229.5 Z"/></g>
+              <g><path  fill="#fbe5cc" d="M 345.5,207.5 C 345.833,207.5 346.167,207.5 346.5,207.5C 346.5,220.5 346.5,233.5 346.5,246.5C 348.833,246.5 351.167,246.5 353.5,246.5C 351.052,247.473 348.385,247.806 345.5,247.5C 345.5,234.167 345.5,220.833 345.5,207.5 Z"/></g>
+              <g><path  fill="#f7c48d" d="M 412.5,246.5 C 415.167,246.5 417.833,246.5 420.5,246.5C 420.5,232.5 420.5,218.5 420.5,204.5C 412.024,204.006 403.691,204.672 395.5,206.5C 396.347,205.034 397.68,204.2 399.5,204C 406.826,203.5 414.159,203.334 421.5,203.5C 421.5,218.167 421.5,232.833 421.5,247.5C 418.287,247.81 415.287,247.477 412.5,246.5 Z"/></g>
+              <g><path  fill="#f4b168" d="M 412.5,211.5 C 413.485,215.634 413.818,219.968 413.5,224.5C 410.615,224.806 407.948,224.473 405.5,223.5C 407.833,223.5 410.167,223.5 412.5,223.5C 412.5,219.5 412.5,215.5 412.5,211.5 Z"/></g>
+              <g><path  fill="#fadab6" d="M 181.5,215.5 C 180.833,220.167 180.167,224.833 179.5,229.5C 179.334,223.491 179.501,217.491 180,211.5C 181.188,212.563 181.688,213.897 181.5,215.5 Z"/></g>
+              <g><path  fill="#f7c896" d="M 171.5,234.5 C 171.495,238.534 171.162,242.534 170.5,246.5C 173.167,246.5 175.833,246.5 178.5,246.5C 175.713,247.477 172.713,247.81 169.5,247.5C 169.624,242.951 170.291,238.618 171.5,234.5 Z"/></g>
+              <g><path  fill="#f7c793" d="M 210.5,237.5 C 211.477,240.287 211.81,243.287 211.5,246.5C 214.5,246.5 217.5,246.5 220.5,246.5C 217.375,247.479 214.042,247.813 210.5,247.5C 210.5,244.167 210.5,240.833 210.5,237.5 Z"/></g>
+              <g><path  fill="#f8cea1" d="M 381.5,246.5 C 378.713,247.477 375.713,247.81 372.5,247.5C 372.827,238.318 372.493,229.318 371.5,220.5C 371.783,219.711 372.283,219.044 373,218.5C 373.5,227.827 373.666,237.161 373.5,246.5C 376.167,246.5 378.833,246.5 381.5,246.5 Z"/></g>
+            </svg> -->
+            <img src="../img/logo.png" alt="">
+            <!-- <svg class="header__svg" width="458" height="501" viewBox="0 0 458 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="svg-main" d="M1.18629 219.504L0 221.702C0.213384 221.001 0.616616 220.266 1.18629 219.504L13.4799 196.727L31.9524 179.744L63.4056 162.262C75.7206 158.099 104.844 150.573 122.817 153.77C145.284 157.766 142.787 152.771 183.227 171.752C215.579 186.937 239.643 231.026 247.631 251.173C256.119 267.989 270.198 313.41 258.615 360.563C247.032 407.716 223.501 441.815 213.183 452.97C202.365 463.293 174.54 486.037 149.777 494.429C119.061 504.838 92.278 500.491 73.8183 497.495L73.3908 497.426C58.6128 495.028 17.9732 468.455 4.49331 452.97C29.1233 458.132 83.0763 466.856 101.848 460.463C120.62 454.069 146.282 432.491 163.756 403.02C170.413 392.364 182.728 361.762 178.734 324.599C174.74 287.436 157.765 248.176 149.777 233.191C146.449 227.863 135.498 214.01 118.324 201.223C104.623 191.022 83.8752 191.233 73.3908 190.866C73.3908 190.866 61.3132 191.775 60.4101 191.233C58.0662 189.826 9.94663 207.795 1.18629 219.504Z" fill="#F29B30"/>
+              <path d="M196.697 3.31861C170.762 17.7434 174.586 79.7832 179.739 109C194.037 76.2772 221.135 9.32892 215.15 3.31861C209.165 -2.69171 200.354 0.814308 196.697 3.31861Z" fill="#F29B30"/>
+              <path d="M323.566 106.503C314.756 113.303 280.851 164.334 265 189C291.864 176.834 345.891 151.501 347.092 147.502C348.294 143.502 373.289 123.169 385.636 113.503C398.817 106.337 427.383 89.9039 436.193 81.5043C447.205 71.0047 404.657 62.5051 395.647 62.0051C386.637 61.5051 334.578 98.0036 323.566 106.503Z" fill="#F29B30"/>
+              <path d="M447 257.5C422.6 245.1 355.833 267 325.5 279.5C381.5 294.3 421.5 285.667 434.5 279.5C448.833 277.333 471.4 269.9 447 257.5Z" fill="#F29B30"/>
+              </svg> -->
+          </div>
+        </a>
+        <nav class="nav" title="Главное меню">
+          <ul class="nav__list list-reset">
+            <li class="nav__item"><a href="#about" class="nav__link" data-scroll="">О нас</a></li>
+            <!-- <li class="nav__item"><a href="#services" class="nav__link" data-scroll="">Темы тренингов</a></li> -->
+            <li class="nav__item"><a href="#res" class="nav__link" data-scroll="">Отзывы</a></li>
+            <li class="nav__item"><a href="#contacts" class="nav__link" data-scroll="">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <h1 class="visually-hidden">Консультация психолога в Нижнем Новгороде</h1>
+  <div class="hero-slider">
+    <div class="hero-slider__btns">
+      <button class="btn-reset slider-nav__btn slider-btn hero-slider__prev">
+        <div class="hero-slider__btn-wrapper-prev">
+          <svg class="slider-nav__arrow">
+            <use xlink:href="img/sprite.svg#arrow-left"></use>
+          </svg>
+        </div>
+      </button>
+      <button class="btn-reset slider-nav__btn slider-btn hero-slider__next">
+        <div class="hero-slider__btn-wrapper-next">
+          <svg class="slider-nav__arrow">
+            <use xlink:href="img/sprite.svg#arrow-right"></use>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div class="swiper-pagination hero__pag"></div>
+
+    <div class="swiper-wrapper">
+
+      <div class="hero__slide swiper-slide">
+        <div class="hero__img" style="background-image: url('../img/flower.jpg');">
+          <div class="hero__container container">
+            <div class="hero__content">
+              <h2 class="main-title main-title--home">Консультации для детей и подростков в Нижнем Новгороде</h2>
+              <p class="main-desc main-desc--home">Индивидуальные консультации и групповые тренинги</p>
+              <a href="#ask" class="hero__btn btn btn-reset popup-link">Получить консультацию</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__slide swiper-slide">
+        <div class="hero__img" style="background-image: url('../img/flower2.jpg');">
+          <div class="hero__container container">
+            <div class="hero__content">
+              <h2 class="main-title main-title--home">Консультация психолога в Нижнем Новгороде</h2>
+              <p class="main-desc main-desc--home">Индивидуальные консультации, групповое обучение</p>
+              <a href="#ask" class="hero__btn btn btn-reset popup-link">Получить консультацию</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <section class="plus">
+  <h2 class="visually-hidden">Виды услуг</h2>
+  <div class="plus__container container">
+    <ul class="plus__list">
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#ic1"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text">Когнитивно-поведенческая психотерапия</h3>
+        </div>
+      </li>
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#ic2"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text">Песочная терапия</h3>
+        </div>
+      </li>
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#ic3"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text">Арт-терапия</h3>
+        </div>
+      </li>
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#ic4"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text">Групповые и игровые форматы</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="services" id="services">
+  <div class="services__container container">
+    <h2 class="services__title h2">С чем мы работаем</h2>
+    <ul class="services__list">
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--odd">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv1.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv1.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Тревожность, замкнутость, стеснительность
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--even">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv7.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv7.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Агрессивность, аутоагрессия и самоповреждения
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--odd">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv8.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv8.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Работа с расстройствами пищевого поведения
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--even">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv6.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv6.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Работа со страхами
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--odd">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv9.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv9.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Горе, потеря кого-либо из близких
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--even">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv5.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv5.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Стрессовые ситуации: развод родителей, новорождённый, переезд и т. д.
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--odd">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv3.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv3.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Социальное отторжение
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+      <li class="services__item">
+        <div class="services__content">
+          <div class="services__pic services__pic--even">
+            <div class="services__img">
+              <picture>
+                <source srcset="../img/serv2.webp" type="image/webp">
+                <img loading="lazy" src="../img/serv2.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="services__text">
+            <h3 class="services__subtitle">
+              Неуверенность в себе, пониженная самооценка
+            </h3>
+          </div>
+          <div class="services__bottom">
+            <a href="#ask" class="services__btn btn-reset btn popup-link" >Записаться</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about" id="about">
+  <div class="about__container container">
+    <div class="about__inner">
+      <div class="about__left">
+        <picture>
+          <source srcset="../img/em.webp" type="image/webp">
+          <img loading="lazy" src="../img/em.jpg." class="image" width="600" height="900" alt="">
+        </picture>
+      </div>
+      <div class="about__right">
+        <h2 class="about__title h2">О нас</h2>
+        <div class="about__text custom-text">
+          <p>Мы работаем с 1993 года. С тех пор нам удалось помочь многим семьям.
+            Сегодня мы осуществляем деятельность по двум направлениям:
+            консультации для родителей и детей от 3 до 16 лет и тренинги для подростков от 12 до 14 лет.</p>
+          <p><strong>Чему подростки учатся на тренингах:</strong></p>
+          <ul>
+            <li>Регулировать своё эмоциональное состояние и комфортно для себя и окружающих выражать эмоции;</li>
+            <li>Быть уверенным в себе и справляться со страхом ошибок;</li>
+            <li>Навыкам успешной коммуникации и социализации, научатся грамотно работать в команде и высказывать свои
+              предложения/мнения, даже если они рознятся с мнениями большинства;</li>
+            <li>Пониманию и принятию себя разного, узнают много нового о самооценке и пробуют посмотреть на себя с новой
+              стороны;</li>
+            <li>Справляться с конфликтами, тревогой и напряжением;</li>
+            <li>Говорить «нет» и определять свои психологические границы;</li>
+            <li>Отличать депрессию и апатию от плохого настроения;</li>
+            <li>Приобретать новый опыт принятия себя;</li>
+            <li>Знакомятся с методиками самопомощи и поддержки в различных стрессовых ситуациях.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="cons">
+  <div class="cons__container container">
+    <h2 class="visually-hidden">Подробнее о консультациях</h2>
+    <ul class="plus__list">
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#room"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text plus__text--white">Продолжительсть консультации 1 час</h3>
+        </div>
+      </li>
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#coffee"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text plus__text--white">Подбираем удобное время (без выходных)</h3>
+        </div>
+      </li>
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#time"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text plus__text--white">Продолжительность тренинга 2 часа</h3>
+        </div>
+      </li>
+      <li class="plus__item">
+        <div class="plus__content">
+          <div class="plus__img">
+            <svg class="plus__svg">
+              <use xlink:href="img/sprite.svg#conf"></use>
+            </svg>
+          </div>
+          <h3 class="plus__text plus__text--white">100% личная конфиденциальность</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="profi">
+  <div class="profi__container container">
+    <h2 class="profi__title h2">Психолог</h2>
+    <div class="profi__inner">
+      <div class="profi__item">
+        <div class="profi__content">
+          <div class="profi__pic profi__pic--odd">
+            <div class="profi__img">
+              <picture>
+                <source srcset="../img/profi.webp" type="image/webp">
+                <img loading="lazy" src="../img/profi.jpg" class="image" width="185" height="185" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="profi__descr">
+            <h3 class="profi__subtitle">
+              Юлия Левина
+            </h3>
+            <p>Детский педагог-психолог, подростковый психолог- консультант</p>
+            <div class="profi__edu">
+              <p><strong>Образование</strong></p>
+              <p>Нижегородский государственный педагогический университет им. К. Минина, бакалавр
+                по направлению «Философия».</p>
+              <p>АНО ДПО «Институт психологии», профессиональная переподготовка по дополнительной
+                профессиональной программе «Детская психология и педагогика. Развивающие
+                технологии».</p>
+              <p>АНО ДПО «Институт психологии», повышение квалификации по дополнительной
+                профессиональной программе «Когнитивно-поведенческая психотерапия».</p>
+            </div>
+
+          </div>
+          <div class="profi__bottom">
+            <button class="profi__btn btn-reset">Подробнее</button>
+          </div>
+        </div>
+      </div>
+      <div class="profi__quote">
+        <div class="profi__quote-text custom-text">
+          <p>
+            До того, как я выбрала профессию психолога, я много работала с детьми. Опыт общения стал моим фундаментом.
+            Люблю работать с детьми. Верю, что могу дать им поддержку и заботу. Я учу их справляться с внешними и
+            внутренними трудностями, помогаю найти опору внутри себя, помогаю увидеть себя настоящих.
+            В ответ они дают мне вдохновение.</p>
+          <p>Внимательно отношусь к каждому случаю и запросу, стараюсь помочь каждому ребёнку и родителю, которые ко мне
+            приходят.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="testimonials">
+  <div class="testimonials__container container">
+    <h2 class="h2 testimonials__title">Отзывы</h2>
+    <div class="testimonials__main">
+      <div class="testimonials__slider swiper">
+        <ul class="testimonials__list swiper-wrapper">
+          <li class="testimonials__item swiper-slide">
+            <article class="testimonials__article">
+              <div class="testimonials__pic">
+                <picture>
+                  <source srcset="../img/avatarf.webp" type="image/webp">
+                  <img loading="lazy" src="../img/avatarf.jpg" class="testimonials__img" width="160" height="160"
+                    alt="Фото">
+                </picture>
+              </div>
+              <div class="testimonials__text custom-text">
+                <p>Мне очень нравится!!! Прям очень очень! Атмосфера дружеская, нет тех
+                  самых косых взглядов как в школе; с ребятами легко найти общий язык;
+                  задания лёгкие, но порой требуют командной работы. Формат мне тоже
+                  очень нравится. Мы сидим в таком кружочке, словно в лагере вокруг костра.
+                  Конец тренинга мне тоже очень нравится, такой ламповый. Я узнала как
+                  сдерживать гнев, как поддерживать людей и много нового! Приходите, не
+                  пожалеете;)</p>
+              </div>
+              <div class="testimonials__author">
+                <p class="testimonials__name">Мария</p>
+                <p class="testimonials__year">12 лет</p>
+              </div>
+            </article>
+          </li>
+          <li class="testimonials__item swiper-slide">
+            <article class="testimonials__article">
+              <div class="testimonials__pic">
+                <picture>
+                  <source srcset="../img/avatarm.webp" type="image/webp">
+                  <img loading="lazy" src="../img/avatarm.jpg" class="testimonials__img" width="160" height="160"
+                    alt="Фото">
+                </picture>
+              </div>
+              <div class="testimonials__text custom-text">
+                <p>Мне очень нравится наша группа, я всегда с радостью прихожу на занятия.
+                  Особенно я ценю общение с ребятами. Всё таки очень хорошо, когда есть
+                  место где ты можешь выговориться, проработать некоторые моменты и
+                  никто тебя за это не осудит, и не скажет, что ты им мешаешь или как-либо
+                  напрягаешь :)</p>
+              </div>
+              <div class="testimonials__author">
+                <p class="testimonials__name">Павел</p>
+                <p class="testimonials__year">13 лет</p>
+              </div>
+            </article>
+          </li>
+          <li class="testimonials__item swiper-slide">
+            <article class="testimonials__article">
+              <div class="testimonials__pic">
+                <picture>
+                  <source srcset="../img/avatarf.webp" type="image/webp">
+                  <img loading="lazy" src="../img/avatarf.jpg" class="testimonials__img" width="160" height="160"
+                    alt="Фото">
+                </picture>
+              </div>
+              <div class="testimonials__text custom-text">
+                <p>Мне очень понравились тренинги, каждое посещение я очень ждала, Юля
+                  лучший преподаватель, грустно, что я закончила обучение, всем советую!!!)</p>
+              </div>
+              <div class="testimonials__author">
+                <p class="testimonials__name">Таня</p>
+                <p class="testimonials__year">12 лет</p>
+              </div>
+            </article>
+          </li>
+          <li class="testimonials__item swiper-slide">
+            <article class="testimonials__article">
+              <div class="testimonials__pic">
+                <picture>
+                  <source srcset="../img/avatarf.webp" type="image/webp">
+                  <img loading="lazy" src="../img/avatarf.jpg" class="testimonials__img" width="160" height="160"
+                    alt="Фото">
+                </picture>
+              </div>
+              <div class="testimonials__text custom-text">
+                <p>Мне очень понравилось, проводящий очень добрый, атмосфера очень
+                  приятная на занятиях чувствуешь себя как дома, методики и задания очень
+                  простые, хорошо помогают</p>
+              </div>
+              <div class="testimonials__author">
+                <p class="testimonials__name">Анна</p>
+                <p class="testimonials__year">13 лет</p>
+              </div>
+            </article>
+          </li>
+          <li class="testimonials__item swiper-slide">
+            <article class="testimonials__article">
+              <div class="testimonials__pic">
+                <picture>
+                  <source srcset="../img/avatarf.webp" type="image/webp">
+                  <img loading="lazy" src="../img/avatarf.jpg" class="testimonials__img" width="160" height="160"
+                    alt="Фото">
+                </picture>
+              </div>
+              <div class="testimonials__text custom-text">
+                <p>Мне очень нравится ходить на тренинги, особенно в субботу, потому что
+                  можно спросить о проблемах возникших за неделю и узнать их решение)</p>
+              </div>
+              <div class="testimonials__author">
+                <p class="testimonials__name">Вика</p>
+                <p class="testimonials__year">13 лет</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+      <div class="testimonials__btns">
+        <button class="btn-reset slider-nav__btn slider-btn testimonials__prev">
+          <div class="hero-slider__btn-wrapper-prev">
+            <svg class="slider-nav__arrow">
+              <use xlink:href="img/sprite.svg#arrow-left"></use>
+            </svg>
+          </div>
+        </button>
+        <button class="btn-reset slider-nav__btn slider-btn testimonials__next">
+          <div class="hero-slider__btn-wrapper-next">
+            <svg class="slider-nav__arrow">
+              <use xlink:href="img/sprite.svg#arrow-right"></use>
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div class="testimonials__pag"></div>
+    </div>
+
+  </div>
+</section>
+
+      <section class="price">
+  <div class="price__container container">
+    <h2 class="h2 price__title">Стоимость</h2>
+    <ul class="price__list">
+      <li class="price__item">
+        <article class="price__card">
+          <div class="price__img">
+            <picture>
+              <source srcset="../img/indiv.webp" type="image/webp">
+              <img loading="lazy" src="../img/indiv.jpg" class="image" width="364" height="260" alt="">
+            </picture>
+          </div>
+          <div class="price__descr">
+            <h3 class="price__subtitle">
+              Индивидуальная консультация
+            </h3>
+            <p>Это работа один на один. Первые консультации всегда проходят вместе с родителями и детьми, далее они проводятся индивидуально с детьми с последующей обратной связью
+            </p>
+            <div class="price__more">
+              <p><strong>Длительность консультации</strong> — 1 час</p>
+              <p><strong>Стоимость</strong> — 1200 руб.</p>
+              <p><strong>Длительность курса зависит от решения проблемы</strong></p>
+            </div>
+          </div>
+          <div class="price__bottom">
+            <button class="price__btn btn-reset">Подробнее</button>
+          </div>
+        </article>
+      </li>
+      <li class="price__item">
+        <article class="price__card">
+          <div class="price__img">
+            <picture>
+              <source srcset="../img/group.webp" type="image/webp">
+              <img loading="lazy" src="../img/group.jpg" class="image" width="364" height="260" alt="">
+            </picture>
+          </div>
+          <div class="price__descr">
+            <h3 class="price__subtitle">
+              Групповой тренинг
+            </h3>
+            <p>Это занятия в группе 6-8 человек. В результате ребята получают знания о себе и окружающих, умеют помочь себе в стрессовой ситуации и установить комфортные отношения с социумом.
+            </p>
+            <div class="price__more">
+              <p><strong>Длительность курса</strong> — 3 месяца</p>
+              <p><strong>Стоимость</strong> — 2500 руб. в месяц</p>
+              <p><strong>Длительность занятия</strong> — не менее 2 часов</p>
+              <p><strong>Первый тренинг — бесплатный</strong></p>
+            </div>
+          </div>
+          <div class="price__bottom">
+            <button class="price__btn btn-reset">Подробнее</button>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="contacts">
+  <h2 class="visually-hidden">Контактная информация</h2>
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__content">
+        <div class="footer__info">
+          <h3 class="footer__title">Наш адрес</h3>
+          <address class="footer__wrap">
+            <p><span> Адрес офиса:</span></p>
+            <p>Нижний Новгород, ул. Комсомольская, 2в</p>
+            <p><span> Адрес оказания услуг:</span></p>
+            <p>Нижний Новгород, пер. Моторный, 1А</p>
+          </address>
+        </div>
+        <div class="footer__info">
+          <h3 class="footer__title">Наши контакты</h3>
+          <div class="footer__wrap">
+            <p><span> Телефон:</span></p>
+            <a href="tel:http://8%20(831)%20292-23-18" class="footer__phone"> 8 (831) 292-23-18</a>
+          </div>
+          <div class="footer__wrap">
+            <p><span> Email:</span></p>
+            <a href="mailto:http://empatia72@yandex.ru" class="footer__email">empatia72@yandex.ru</a>
+          </div>
+        </div>
+        <div class="footer__info footer__info--form">
+          <h3 class="footer__title">Остались вопросы?</h3>
+          <a href="#ask" class="btn-reset btn popup-link">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__bottom-inner">
+      <small class="footer__copyright">
+        © АНО ДО ЦППиР «Эмпатия». Все права защищены. 2022.</small>
+      <small class="footer__made">Made with<span></span>by Irina Pronina</small>
+    </div>
+  </div></div>
+</footer>
+
+    <div class="popup" id="ask">
+  <div class="popup__inner" role="dialog" aria-modal="true" data-popup-target="ask">
+    <div class="popup__content">
+      <button class="btn-reset popup__close popup-close" aria-label="Закрыть модальное окно">
+        <svg shape-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="15"
+          height="15" data-prefix="img8g1a3b">
+          <path
+            d="M9.5 7.5l5.1 5.1c.6.6.6 1.5 0 2-.6.6-1.5.6-2 0L7.5 9.5l-5.1 5.1c-.6.6-1.5.6-2 0-.6-.6-.6-1.5 0-2l5.1-5.1L.4 2.4C-.2 1.8-.2.9.4.4s1.5-.6 2 0l5.1 5.1L12.6.4c.6-.6 1.5-.6 2 0 .6.6.6 1.5 0 2L9.5 7.5z"
+            class="path-icn1o68jw"></path>
+        </svg>
+      </button>
+      <form class="popup__form form-popup" enctype="multipart/form-data" method="post">
+        <h2 class="popup__title">Оставить заявку</h2>
+        <p class="popup__descr text-small">Оставьте ваши контактные данные — и администратор с вами свяжется.</p>
+        <div class="popup__data">
+          <label class="popup__field">
+            <input class="popup__input input-name" type="text" name="name" placeholder="Имя *" required="required" />
+          </label>
+          <label class="popup__field" for="tel">
+            <input class="popup__input input-tel" type="tel" name="tel" placeholder="Телефон *" required="required" />
+          </label>
+          <label class="popup__field" for="email">
+            <input class="popup__input input-email" type="email" name="email" placeholder="E-mail " required="required" />
+          </label>
+        </div>
+        <div class="popup__agree">
+          <label class="custom-checkbox text-small">
+            <input class="popup__checkbox input-checkbox" type="checkbox" required="required" /><span>Нажимая кнопку
+              «Отправить», даю <a href="https://empatiann.ru/wp-content/uploads/2022/12/Soglasie-na-obrabotku-personalnyh-dannyh.pdf">согласие на обработку персональных данных</a></span>
+          </label>
+        </div>
+        <div class="popup__btns">
+          <button class="popup__btn btn-reset btn " type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

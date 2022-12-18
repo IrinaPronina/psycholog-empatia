@@ -1,0 +1,26 @@
+.nav {
+
+  @include tablet{
+    display: none;
+  }
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    margin: 0 5px;
+  }
+
+  &__link {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-color);
+    padding: 5px 10px;
+    transition: all ease 0.8s;
+
+    &:hover{
+      color: var(--accent-color);
+    }
+  }
+}
